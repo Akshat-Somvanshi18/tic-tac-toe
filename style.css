@@ -1,0 +1,159 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(199, 201, 255);
+}
+#main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+#celebration_img_1{
+    display: none;
+    animation-name: anime1;
+    animation-duration: 0.4s;
+    animation-iteration-count: 10;
+}
+@keyframes anime1 {
+    to{
+        opacity: 0.2;
+    }
+    
+}
+#celebration_img_2{
+    display: none;
+    animation-name: anime2;
+    animation-duration: 0.4s;
+    animation-iteration-count: 10;
+}
+@keyframes anime2 {
+    to{
+        opacity: 0.2;
+    }
+    
+}
+#celebration_img_2{
+    display: none;
+}
+
+#sub_main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+#game_name{
+    font-family: cursive;
+}
+#input1{
+    width: 300px;
+    height: 30px;
+    text-align: center;
+    margin-top: 18px;
+    margin-bottom: 18px;
+    border-radius: 15px;
+    color: rgb(48, 48, 109);
+    font-weight: bolder;
+    font-size: 15px;
+}
+#buttoninput{
+    width: 100px;
+    height: 30px;
+    background-color: rgb(174, 174, 246);
+    cursor: pointer;
+    border-radius: 20px;
+}
+#buttoninput:hover{
+    background-color: rgb(249, 156, 139);
+}
+#game_section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#msg1{
+    margin-top: 18px;
+    font-family: cursive;
+}
+#msg2{
+    margin-top: 18px;
+    margin-bottom: 18px;
+    font-family: cursive;
+}
+#msg3{
+    font-family: cursive;
+}
+#input1
+{
+    display: block;
+}
+
+#game_section div button{
+    width: 100px;
+    height: 100px;
+    font-family: cursive;
+    font-weight: bolder;
+    font-size: 15px;
+    cursor:pointer;
+    border-color:rgb(63, 63, 186);
+}
+#b1{
+    border-top: 0px;
+    border-left: 0px;
+}
+#b2{
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+}
+#b3{
+    border-top: 0px;
+    border-right: 0px;
+}
+#b4{
+    border-left: 0px;
+}
+#b5{
+    border-left: 0px;
+    border-right: 0px;
+}
+#b6{
+    
+    border-right: 0px;
+}
+#b7{
+    border-bottom: 0px;
+    border-left: 0px;
+}
+#b8{
+     border-bottom: 0px;
+     border-left: 0px;
+    border-right: 0px;
+}
+#b9{
+    border-bottom: 0px;
+    border-right: 0px;
+}
+
+#reset{
+    width: 100px;
+    height: 30px;
+    margin: 20px;
+    font-family: cursive;
+    background-color: rgb(174, 174, 246);
+    cursor: pointer;
+    border-radius: 20px;
+}
+#reset:hover{
+    background-color: rgb(249, 156, 139);
+}
+
+#result{
+    background-color: rgb(137, 143, 244);
+    font-family: cursive;
+    width: 500px;
+    text-align: center;
+}
