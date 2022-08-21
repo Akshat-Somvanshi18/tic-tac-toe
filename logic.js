@@ -47,7 +47,7 @@ let x=0;
             
              if(x==0)
             {
-              document.getElementById("b1").innerHTML="X";
+              document.getElementById("i1").src="x.png";
               x=1;
               document.getElementById("b1").onclick="";
               b1="X";
@@ -56,7 +56,7 @@ let x=0;
             }
              else
             {
-              document.getElementById("b1").innerHTML="O";
+              document.getElementById("i1").src="o.png";
               x=0;
               document.getElementById("b1").onclick="";
               b1="O";
@@ -74,7 +74,7 @@ let x=0;
             }
              if(x==0)
             {
-              document.getElementById("b2").innerHTML="X";
+              document.getElementById("i2").src="x.png";
               x=1;
               document.getElementById("b2").onclick="";
               b2="X";
@@ -83,7 +83,7 @@ let x=0;
             }
              else
             {
-              document.getElementById("b2").innerHTML="O";
+              document.getElementById("i2").src="o.png";
               x=0;
               document.getElementById("b2").onclick="";
               b2="O";
@@ -101,7 +101,7 @@ let x=0;
             }
              if(x==0)
             {
-              document.getElementById("b3").innerHTML="X";
+              document.getElementById("i3").src="x.png";
               x=1;
               document.getElementById("b3").onclick="";
               b3="X";
@@ -110,7 +110,7 @@ let x=0;
             }
              else
             {
-              document.getElementById("b3").innerHTML="O";
+              document.getElementById("i3").src="o.png";
               x=0;
               document.getElementById("b3").onclick="";
               b3="O";
@@ -128,7 +128,7 @@ let x=0;
             }
              if(x==0)
             {
-              document.getElementById("b4").innerHTML="X";
+              document.getElementById("i4").src="x.png";
               x=1;
               document.getElementById("b4").onclick="";
               b4="X";
@@ -137,7 +137,7 @@ let x=0;
             }
              else
             {
-              document.getElementById("b4").innerHTML="O";
+              document.getElementById("i4").src="o.png";
               x=0;
               document.getElementById("b4").onclick="";
               b4="O";
@@ -155,7 +155,7 @@ let x=0;
             }
              if(x==0)
             {
-              document.getElementById("b5").innerHTML="X";
+              document.getElementById("i5").src="x.png";
               x=1;
               document.getElementById("b5").onclick="";
               b5="X";
@@ -164,7 +164,7 @@ let x=0;
             }
              else
             {
-              document.getElementById("b5").innerHTML="O";
+              document.getElementById("i5").src="o.png";
               x=0;
               document.getElementById("b5").onclick="";
               b5="O";
@@ -182,7 +182,7 @@ let x=0;
             }
              if(x==0)
             {
-              document.getElementById("b6").innerHTML="X";
+              document.getElementById("i6").src="x.png";
               x=1;
               document.getElementById("b6").onclick="";
               b6="X";
@@ -191,7 +191,7 @@ let x=0;
             }
              else
             {
-              document.getElementById("b6").innerHTML="O";
+              document.getElementById("i6").src="o.png";
               x=0;
               document.getElementById("b6").onclick="";
               b6="O";
@@ -209,7 +209,7 @@ let x=0;
             }
              if(x==0)
             {
-              document.getElementById("b7").innerHTML="X";
+              document.getElementById("i7").src="x.png";
               x=1;
               document.getElementById("b7").onclick="";
               b7="X";
@@ -218,7 +218,7 @@ let x=0;
             }
              else
             {
-              document.getElementById("b7").innerHTML="O";
+              document.getElementById("i7").src="o.png";
               x=0;
               document.getElementById("b7").onclick="";
               b7="O";
@@ -236,7 +236,7 @@ let x=0;
             }
              if(x==0)
             {
-              document.getElementById("b8").innerHTML="X";
+              document.getElementById("i8").src="x.png";
               x=1;
               document.getElementById("b8").onclick="";
               b8="X";
@@ -245,7 +245,7 @@ let x=0;
             }
              else
             {
-              document.getElementById("b8").innerHTML="O";
+              document.getElementById("i8").src="o.png";
               x=0;
               document.getElementById("b8").onclick="";
               b8="O";
@@ -263,7 +263,7 @@ let x=0;
             }
              if(x==0)
             {
-              document.getElementById("b9").innerHTML="X";
+              document.getElementById("i9").src="x.png";
               x=1;
               document.getElementById("b9").onclick="";
               b9="X";
@@ -274,7 +274,7 @@ let x=0;
             }
              else
             {
-              document.getElementById("b9").innerHTML="O";
+              document.getElementById("i9").src="o.png";
               x=0;
               document.getElementById("b9").onclick="";
               b9="O";
@@ -306,6 +306,8 @@ let x=0;
                 document.getElementById("b9").onclick="";
                 document.getElementById("celebration_img_1").style.display="block";
                 document.getElementById("celebration_img_2").style.display="block";
+                
+                document.getElementById("msg1").style.animation="msg_anime 0.3s 12 backwards";
                 draw=1;
               }
               else if((b1=="X" && b4=="X" && b7=="X") || (b2=="X" && b5=="X" && b8=="X") || (b3=="X" && b6=="X" && b9=="X"))
@@ -324,6 +326,7 @@ let x=0;
                 document.getElementById("b9").onclick="";
                 document.getElementById("celebration_img_1").style.display="block";
                 document.getElementById("celebration_img_2").style.display="block";
+                document.getElementById("msg1").style.animation="msg_anime 0.3s 12 backwards";
                 draw=1;
               }
               else if((b1=="X" && b5=="X" && b9=="X") || (b3=="X" && b5=="X" && b7=="X"))
@@ -342,6 +345,9 @@ let x=0;
                 document.getElementById("b9").onclick="";
                 document.getElementById("celebration_img_1").style.display="block";
                 document.getElementById("celebration_img_2").style.display="block";
+                document.getElementById("msg1").style.animation="msg_anime 0.3s 12 backwards";
+                
+
                 draw=1;
               }
 
@@ -368,6 +374,7 @@ let x=0;
                 document.getElementById("b9").onclick="";
                 document.getElementById("celebration_img_1").style.display="block";
                 document.getElementById("celebration_img_2").style.display="block";
+                document.getElementById("msg1").style.animation="msg_anime 0.3s 12 backwards";
                 draw=1;
 
             }
@@ -387,6 +394,7 @@ let x=0;
                 document.getElementById("b9").onclick="";
                 document.getElementById("celebration_img_1").style.display="block";
                 document.getElementById("celebration_img_2").style.display="block";
+                document.getElementById("msg1").style.animation="msg_anime 0.3s 12 backwards";
                 draw=1;
             }
             else if((b1=="O" && b5=="O" && b9=="O") || (b3=="O" && b5=="O" && b7=="O"))
@@ -405,6 +413,7 @@ let x=0;
                 document.getElementById("b9").onclick="";
                 document.getElementById("celebration_img_1").style.display="block";
                 document.getElementById("celebration_img_2").style.display="block";
+                document.getElementById("msg1").style.animation="msg_anime 0.3s 12 backwards";
                 draw=1;
             }
             
@@ -416,6 +425,7 @@ let x=0;
             document.getElementById("msg1").innerHTML="Match Draw";
             document.getElementById("msg2").innerHTML=".......................................";
             document.getElementById("result").innerHTML="Match Draw";
+            document.getElementById("msg1").style.animation="msg_anime 0.3s 12 backwards";
           
 
           }
