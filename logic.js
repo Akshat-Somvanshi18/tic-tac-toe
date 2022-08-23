@@ -39,6 +39,7 @@ let x=0;
           }
           function func1()
           {
+            let audio4=document.getElementById("myaudio4");
             if(ic==0)
             {
               pa="Player A";
@@ -47,6 +48,7 @@ let x=0;
             
              if(x==0)
             {
+              audio4.play();
               document.getElementById("i1").src="x.png";
               x=1;
               document.getElementById("b1").onclick="";
@@ -56,6 +58,8 @@ let x=0;
             }
              else
             {
+              
+              audio4.play();
               document.getElementById("i1").src="o.png";
               x=0;
               document.getElementById("b1").onclick="";
@@ -67,6 +71,7 @@ let x=0;
            }
            function func2()
           {
+            let audio4=document.getElementById("myaudio4");
             if(ic==0)
             {
               pa="Player A";
@@ -74,6 +79,7 @@ let x=0;
             }
              if(x==0)
             {
+              audio4.play();
               document.getElementById("i2").src="x.png";
               x=1;
               document.getElementById("b2").onclick="";
@@ -83,6 +89,8 @@ let x=0;
             }
              else
             {
+             
+                audio4.play();
               document.getElementById("i2").src="o.png";
               x=0;
               document.getElementById("b2").onclick="";
@@ -94,6 +102,7 @@ let x=0;
            }
            function func3()
           {
+            let audio4=document.getElementById("myaudio4");
             if(ic==0)
             {
               pa="Player A";
@@ -101,6 +110,8 @@ let x=0;
             }
              if(x==0)
             {
+              
+                audio4.play();
               document.getElementById("i3").src="x.png";
               x=1;
               document.getElementById("b3").onclick="";
@@ -110,6 +121,8 @@ let x=0;
             }
              else
             {
+             
+                audio4.play();
               document.getElementById("i3").src="o.png";
               x=0;
               document.getElementById("b3").onclick="";
@@ -121,6 +134,7 @@ let x=0;
            }
            function func4()
           {
+            let audio4=document.getElementById("myaudio4");
             if(ic==0)
             {
               pa="Player A";
@@ -128,6 +142,8 @@ let x=0;
             }
              if(x==0)
             {
+              
+                audio4.play();
               document.getElementById("i4").src="x.png";
               x=1;
               document.getElementById("b4").onclick="";
@@ -137,6 +153,8 @@ let x=0;
             }
              else
             {
+              
+                audio4.play();
               document.getElementById("i4").src="o.png";
               x=0;
               document.getElementById("b4").onclick="";
@@ -148,6 +166,7 @@ let x=0;
            }
            function func5()
           {
+            let audio4=document.getElementById("myaudio4");
             if(ic==0)
             {
               pa="Player A";
@@ -155,6 +174,8 @@ let x=0;
             }
              if(x==0)
             {
+             
+                audio4.play();
               document.getElementById("i5").src="x.png";
               x=1;
               document.getElementById("b5").onclick="";
@@ -164,6 +185,8 @@ let x=0;
             }
              else
             {
+              
+                audio4.play();
               document.getElementById("i5").src="o.png";
               x=0;
               document.getElementById("b5").onclick="";
@@ -175,6 +198,7 @@ let x=0;
            }
            function func6()
           {
+            let audio4=document.getElementById("myaudio4");
             if(ic==0)
             {
               pa="Player A";
@@ -182,6 +206,8 @@ let x=0;
             }
              if(x==0)
             {
+              
+                audio4.play();
               document.getElementById("i6").src="x.png";
               x=1;
               document.getElementById("b6").onclick="";
@@ -191,6 +217,8 @@ let x=0;
             }
              else
             {
+              
+                audio4.play();
               document.getElementById("i6").src="o.png";
               x=0;
               document.getElementById("b6").onclick="";
@@ -202,6 +230,7 @@ let x=0;
            }
            function func7()
           {
+            let audio4=document.getElementById("myaudio4");
             if(ic==0)
             {
               pa="Player A";
@@ -209,6 +238,8 @@ let x=0;
             }
              if(x==0)
             {
+              
+                audio4.play();
               document.getElementById("i7").src="x.png";
               x=1;
               document.getElementById("b7").onclick="";
@@ -218,6 +249,8 @@ let x=0;
             }
              else
             {
+              
+                audio4.play();
               document.getElementById("i7").src="o.png";
               x=0;
               document.getElementById("b7").onclick="";
@@ -229,6 +262,7 @@ let x=0;
            }
            function func8()
           {
+            let audio4=document.getElementById("myaudio4");
             if(ic==0)
             {
               pa="Player A";
@@ -236,6 +270,8 @@ let x=0;
             }
              if(x==0)
             {
+             
+                audio4.play();
               document.getElementById("i8").src="x.png";
               x=1;
               document.getElementById("b8").onclick="";
@@ -245,6 +281,8 @@ let x=0;
             }
              else
             {
+              
+                audio4.play();
               document.getElementById("i8").src="o.png";
               x=0;
               document.getElementById("b8").onclick="";
@@ -256,6 +294,7 @@ let x=0;
            }
            function func9()
           {
+            let audio4=document.getElementById("myaudio4");
             if(ic==0)
             {
               pa="Player A";
@@ -263,6 +302,8 @@ let x=0;
             }
              if(x==0)
             {
+              
+                audio4.play();
               document.getElementById("i9").src="x.png";
               x=1;
               document.getElementById("b9").onclick="";
@@ -274,6 +315,8 @@ let x=0;
             }
              else
             {
+            
+                audio4.play();
               document.getElementById("i9").src="o.png";
               x=0;
               document.getElementById("b9").onclick="";
@@ -309,6 +352,11 @@ let x=0;
                 
                 document.getElementById("msg1").style.animation="msg_anime 0.3s 12 backwards";
                 draw=1;
+                let audio2=document.getElementById("myaudio2");
+                audio2.play();
+                let audio1=document.getElementById("myaudio1");
+                audio1.play();
+                
               }
               else if((b1=="X" && b4=="X" && b7=="X") || (b2=="X" && b5=="X" && b8=="X") || (b3=="X" && b6=="X" && b9=="X"))
               {
@@ -328,6 +376,12 @@ let x=0;
                 document.getElementById("celebration_img_2").style.display="block";
                 document.getElementById("msg1").style.animation="msg_anime 0.3s 12 backwards";
                 draw=1;
+                document.getElementById("msg1").style.animation="msg_anime 0.3s 12 backwards";
+                draw=1;
+                let audio2=document.getElementById("myaudio2");
+                audio2.play();
+                let audio1=document.getElementById("myaudio1");
+                audio1.play();
               }
               else if((b1=="X" && b5=="X" && b9=="X") || (b3=="X" && b5=="X" && b7=="X"))
               {
@@ -346,9 +400,13 @@ let x=0;
                 document.getElementById("celebration_img_1").style.display="block";
                 document.getElementById("celebration_img_2").style.display="block";
                 document.getElementById("msg1").style.animation="msg_anime 0.3s 12 backwards";
-                
-
                 draw=1;
+                document.getElementById("msg1").style.animation="msg_anime 0.3s 12 backwards";
+                draw=1;
+                let audio2=document.getElementById("myaudio2");
+                audio2.play();
+                let audio1=document.getElementById("myaudio1");
+                audio1.play();
               }
 
            }
@@ -376,6 +434,12 @@ let x=0;
                 document.getElementById("celebration_img_2").style.display="block";
                 document.getElementById("msg1").style.animation="msg_anime 0.3s 12 backwards";
                 draw=1;
+                document.getElementById("msg1").style.animation="msg_anime 0.3s 12 backwards";
+                draw=1;
+                let audio2=document.getElementById("myaudio2");
+                audio2.play();
+                let audio1=document.getElementById("myaudio1");
+                audio1.play();
 
             }
             else if((b1=="O" && b4=="O" && b7=="O") || (b2=="O" && b5=="O" && b8=="O") || (b3=="O" && b6=="O" && b9=="O"))
@@ -396,6 +460,12 @@ let x=0;
                 document.getElementById("celebration_img_2").style.display="block";
                 document.getElementById("msg1").style.animation="msg_anime 0.3s 12 backwards";
                 draw=1;
+                document.getElementById("msg1").style.animation="msg_anime 0.3s 12 backwards";
+                draw=1;
+                let audio2=document.getElementById("myaudio2");
+                audio2.play();
+                let audio1=document.getElementById("myaudio1");
+                audio1.play();
             }
             else if((b1=="O" && b5=="O" && b9=="O") || (b3=="O" && b5=="O" && b7=="O"))
             {
@@ -415,6 +485,12 @@ let x=0;
                 document.getElementById("celebration_img_2").style.display="block";
                 document.getElementById("msg1").style.animation="msg_anime 0.3s 12 backwards";
                 draw=1;
+                document.getElementById("msg1").style.animation="msg_anime 0.3s 12 backwards";
+                draw=1;
+                let audio2=document.getElementById("myaudio2");
+                audio2.play();
+                let audio1=document.getElementById("myaudio1");
+                audio1.play();
             }
             
 
@@ -426,6 +502,11 @@ let x=0;
             document.getElementById("msg2").innerHTML=".......................................";
             document.getElementById("result").innerHTML="Match Draw";
             document.getElementById("msg1").style.animation="msg_anime 0.3s 12 backwards";
+            document.getElementById("msg1").style.animation="msg_anime 0.3s 12 backwards";
+                draw=1;
+                let audio3=document.getElementById("myaudio3");
+                audio3.play();
+
           
 
           }

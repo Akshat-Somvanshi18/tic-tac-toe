@@ -13,7 +13,7 @@
     display: none;
     animation-name: anime1;
     animation-duration: 0.4s;
-    animation-iteration-count: 10;
+    animation-iteration-count: 20;
     
 }
 @keyframes anime1 {
@@ -28,7 +28,7 @@
     display: none;
     animation-name: anime1;
     animation-duration: 0.4s;
-    animation-iteration-count: 10;
+    animation-iteration-count: 20;
 }
 #celebration_img_2{
     display: none;
